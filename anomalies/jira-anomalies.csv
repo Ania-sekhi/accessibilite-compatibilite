@@ -1,0 +1,73 @@
+Summary,Issue Type,Priority,Description,Labels
+"ACC-01 Contraste insuffisant du bouton « Copier le code » (3,94:1)",Bug,High,"Application : Générateur
+Référence : RGAA 3.2 · WCAG 1.4.3
+Sévérité : Majeure
+Trouvée par : axe-core
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite generateur severite-majeure
+ACC-02 Indicateur de sécurité sans alternative textuelle : niveau inconnu au lecteur d'écran,Bug,Highest,"Application : Générateur
+Référence : RGAA 1.1 · WCAG 1.1.1
+Sévérité : Critique
+Trouvée par : Manuel
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite generateur severite-critique
+ACC-03 Niveau de sécurité indiqué uniquement par la couleur,Bug,High,"Application : Générateur
+Référence : RGAA 3.1 · WCAG 1.4.1
+Sévérité : Majeure
+Trouvée par : Manuel
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite generateur severite-majeure
+"ACC-04 Textes de l'indicateur illisibles (blanc sur jaune 1,07:1, sur orange 1,97:1)",Bug,High,"Application : Générateur
+Référence : RGAA 3.2 · WCAG 1.4.3
+Sévérité : Majeure
+Trouvée par : Manuel (calcul des contrastes)
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite generateur severite-majeure
+ACC-05 Mot de passe généré non annoncé aux technologies d'assistance,Bug,High,"Application : Générateur
+Référence : RGAA 7.5 · WCAG 4.1.3
+Sévérité : Majeure
+Trouvée par : Manuel
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite generateur severite-majeure
+ACC-06 Images décoratives avec alternative : bouton lu « Copier Copier le code »,Bug,Low,"Application : Générateur
+Référence : RGAA 1.2 · WCAG 1.1.1
+Sévérité : Mineure
+Trouvée par : Manuel
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite generateur severite-mineure
+ACC-07 Champ « Emprunteur » sans étiquette (placeholder seul),Bug,High,"Application : Médiathèque
+Référence : RGAA 11.1 · WCAG 3.3.2
+Sévérité : Majeure
+Trouvée par : Manuel
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite mediatheque severite-majeure
+ACC-08 Champ ISBN invalide non signalé en erreur (`aria-invalid` absent),Bug,Low,"Application : Médiathèque
+Référence : RGAA 11.10 · WCAG 3.3.1
+Sévérité : Mineure
+Trouvée par : Manuel
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",accessibilite mediatheque severite-mineure
+"COMP-01 Mobile 375 px : indicateur coupé à gauche, inatteignable",Bug,High,"Application : Générateur
+Référence : RGAA 10.11 · WCAG 1.4.10
+Sévérité : Majeure
+Trouvée par : Test d'affichage
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",compatibilite generateur severite-majeure
+"COMP-02 Mobile 375 px : titre coupé en haut, mot de passe hors de son cadre",Bug,Low,"Application : Générateur
+Référence : -
+Sévérité : Mineure
+Trouvée par : Test d'affichage
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",compatibilite generateur severite-mineure
+COMP-03 Zone « Très bon » qui dépasse du cadre (768 à 1 280 px),Bug,Low,"Application : Générateur
+Référence : -
+Sévérité : Mineure
+Trouvée par : Test d'affichage
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",compatibilite generateur severite-mineure
+COMP-04 Mobile 375 px et zoom 200 % : le tableau fait défiler toute la page horizontalement,Bug,High,"Application : Médiathèque
+Référence : RGAA 10.11 · WCAG 1.4.10
+Sévérité : Majeure
+Trouvée par : Test d'affichage
+Environnement : Chrome 153
+Détail : docs/03-anomalies.md",compatibilite mediatheque severite-majeure
